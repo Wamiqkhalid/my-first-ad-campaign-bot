@@ -88,4 +88,4 @@ def send_meta_outbound(platform: str, recipient_id: str, message_text: str):
     requests.post(url, json=data, headers=headers)
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=10000)
+    uvicorn.run(app, host="0.0.0.0", port=
